@@ -20,6 +20,9 @@ public class DigitalVideoDisc {
         nbDigitalVideoDiscs++;
         this.id = nbDigitalVideoDiscs;
     }
+    public int getId() {
+        return id;
+    }
     public String getTitle() {
         return title;
     }
@@ -67,4 +70,10 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
     
+
+    @Override
+    public String toString() {
+        return "DigitalVideoDisc [id=" + id + ", title=" + title + ", category=" + category + 
+               ", director=" + director + ", length=" + length + ", cost=" + cost + "]";
+    }
 }
