@@ -21,6 +21,7 @@ public class CartTest {
         DigitalVideoDisc dvd3= new DigitalVideoDisc ("Aladin", "Animation", 18.99f);
         cart.addDigitalVideoDisc (dvd3);
         cart.print();
-    //To-do: Test the search methods here
+        cart.searchById(1);
+        cart.searchByTitle("Aladin");
     }
 }

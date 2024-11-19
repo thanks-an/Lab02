@@ -81,6 +81,7 @@ public class Cart {
     public DigitalVideoDisc searchById(int id) {
         for (int i = 0; i < qtyOrdered; i++) {
             if (itemsOrdered[i].getId() == id) {
+                System.out.println(itemsOrdered[i].toString());
                 return itemsOrdered[i];
             }
         }

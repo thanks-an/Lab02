@@ -70,10 +70,17 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
     
+    /* 
+    public boolean isMatch(String title) {
+        return this.title.equalsIgnoreCase(title);
+    }*/
+    public boolean isMatch(String title) {
+        return this.title.equals(title);
+    }
 
     @Override
     public String toString() {
-        return "DigitalVideoDisc [id=" + id + ", title=" + title + ", category=" + category + 
-               ", director=" + director + ", length=" + length + ", cost=" + cost + "]";
+        return "DVD [" + title + "] - [" + category + "] - [" 
+                + director + "] - [" + length + "] : [" + cost + "$]";
     }
 }
