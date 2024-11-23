@@ -1,7 +1,7 @@
 C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\Aims.java
-C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\Cart.java
-C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\DigitalVideoDisc.java
-C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\Store.java
-C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\CartTest.java
-C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\StoreTest.java
-C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\TestPassingParameter.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\cart\Cart.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\disc\DigitalVideoDisc.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\store\Store.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\test\cart\CartTest.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\test\disc\TestPassingParameter.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\test\store\StoreTest.java
