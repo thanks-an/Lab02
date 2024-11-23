@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package aimsproject;
+package aimsproject.aims.disc;
 
 /**
  *
@@ -14,7 +14,15 @@ public class DigitalVideoDisc {
     private String director; 
     private int length; 
     private float cost;
-
+    private static int nbDigitalVideoDiscs = 0;
+    private int id;
+    {
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
+    }
+    public int getId() {
+        return id;
+    }
     public String getTitle() {
         return title;
     }
@@ -34,7 +42,9 @@ public class DigitalVideoDisc {
     public float getCost() {
         return cost;
     }
-
+    public void setTitle(String title) {
+        this.title = title;
+    }
     public DigitalVideoDisc(String title) {
         this.title = title;
     }
@@ -60,4 +70,17 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
     
+    /* 
+    public boolean isMatch(String title) {
+        return this.title.equalsIgnoreCase(title);
+    }*/
+    public boolean isMatch(String title) {
+        return this.title.equals(title);
+    }
+
+    @Override
+    public String toString() {
+        return "DVD [" + title + "] - [" + category + "] - [" 
+                + director + "] - [" + length + "] : [" + cost + "$]";
+    }
 }
