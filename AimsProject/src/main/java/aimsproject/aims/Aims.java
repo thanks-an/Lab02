@@ -2,7 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package aimsproject;
+package aimsproject.aims;
+
+import aimsproject.aims.disc.DigitalVideoDisc;
+import aimsproject.aims.cart.Cart;
 
 /**
  *
