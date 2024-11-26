@@ -10,7 +10,7 @@ import aimsproject.aims.Playable;
  *
  * @author ASUS
  */
-public class DigitalVideoDisc extends Media implements Playable {
+public class DigitalVideoDisc extends Disc implements Playable {
     private String title; 
     private String category; 
     private String director; 

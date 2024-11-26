@@ -17,10 +17,15 @@ import java.util.List;
     private String title; private String category;
     private float cost;
     private List<String> authors = new ArrayList<String>();
-    public Book() {
-        }
-        // TODO Auto-generated constructor stub
+    public Book(String title) {
+        this.title = title;
+    }
 
+    public Book(String title, String category, float cost) {
+        this.title = title;
+        this.category = category;
+        this.cost = cost;
+    }
     public void addAuthor(String authorName) {
         if (!authors.contains(authorName)) {
              authors.add(authorName);
