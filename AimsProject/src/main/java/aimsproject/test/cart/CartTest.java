@@ -4,7 +4,7 @@
  */
 package aimsproject.test.cart;
 
-import aimsproject.aims.disc.DigitalVideoDisc;
+import aimsproject.aims.media.DigitalVideoDisc;
 import aimsproject.aims.cart.Cart;
 
 /**

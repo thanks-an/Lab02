@@ -4,7 +4,7 @@
  */
 package aimsproject.test.disc;
 
-import aimsproject.aims.disc.DigitalVideoDisc;
+import aimsproject.aims.media.DigitalVideoDisc;
 
 /**
  *

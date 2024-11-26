@@ -1,6 +1,12 @@
 C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\Aims.java
 C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\cart\Cart.java
-C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\disc\DigitalVideoDisc.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\media\Book.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\media\CompactDisc.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\media\DigitalVideoDisc.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\media\Disc.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\media\Media.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\media\Track.java
+C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\Playable.java
 C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\aims\store\Store.java
 C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\test\cart\CartTest.java
 C:\Users\ASUS\Documents\GitHub\OOP_Lab_20241\AimsProject\src\main\java\aimsproject\test\disc\TestPassingParameter.java

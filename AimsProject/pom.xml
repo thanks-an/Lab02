@@ -8,6 +8,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>23</maven.compiler.release>
-        <exec.mainClass>aimsproject.Aims</exec.mainClass>
+        <exec.mainClass>aimsproject.aims.Aims</exec.mainClass>
     </properties>
 </project>

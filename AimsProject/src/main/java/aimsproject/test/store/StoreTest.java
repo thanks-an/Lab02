@@ -5,7 +5,7 @@
 package aimsproject.test.store;
 
 import aimsproject.aims.store.Store;
-import aimsproject.aims.disc.DigitalVideoDisc;
+import aimsproject.aims.media.DigitalVideoDisc;
 
 /**
  *
