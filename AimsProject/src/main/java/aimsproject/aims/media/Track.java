@@ -28,4 +28,11 @@ public class Track implements Playable {
     }
 
     @Override public void play() { System.out.println("Playing Track: " + this.title); System.out.println("Track length: " + this.length); }
+    @Override
+    public boolean equals(Track o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Track track = (Track) o;
+        return length == track.length && title.equals(track.title);
+    }
 }

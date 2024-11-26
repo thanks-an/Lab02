@@ -9,5 +9,5 @@ package aimsproject.aims;
  * @author ASUS
  */
 public interface Playable {
-    
+    public void play();
 }
