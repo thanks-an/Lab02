@@ -15,7 +15,7 @@ public class DigitalVideoDisc extends Media implements Playable {
     private String category; 
     private String director; 
     private int length; 
-    public float cost;
+    //private float cost;
     private static int nbDigitalVideoDiscs = 0;
     private int id;
     {

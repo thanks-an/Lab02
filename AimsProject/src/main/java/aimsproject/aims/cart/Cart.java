@@ -53,6 +53,7 @@ public class Cart {
         float total = 0.0f;
         for (Media media : itemsOrdered) {
             total += media.getCost();
+            //System.out.println("total hien tai: " + total);
         }
         System.out.println("Total Cost is: ");
         return total;

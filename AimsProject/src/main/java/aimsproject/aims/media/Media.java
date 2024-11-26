@@ -14,6 +14,7 @@ public class Media {
     private String title;
     private String category;
     public float cost;
+    //private float cost;
 
     public int getId() {
         return id;
