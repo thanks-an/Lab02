@@ -18,9 +18,11 @@ public class CompactDisc extends Disc implements   Playable {
     private String artist;
     private ArrayList<Track> tracks = new ArrayList<>();
 
-    public CompactDisc(String title, String category, float cost, String artist) {
-        super(title, category, cost);
+    public CompactDisc(String title, String category, String artist, float cost) {
+        this.title = title;
+        this.category = category;
         this.artist = artist;
+        this.cost = cost;
     }
 
     public String getArtist() {
@@ -51,4 +53,9 @@ public class CompactDisc extends Disc implements   Playable {
         return totalLength;
     }
     @Override public void play() { System.out.println("Playing CD: " + this.getTitle()); for (Track track : tracks) { track.play(); }}
+    @Override
+    public String toString() {
+        return "CD [" + getTitle() + "] - [" + getCategory() + "] - [" 
+                + artist + "] - [" + getLength() + "] : [" + getCost() + "$]";
+    }
 }

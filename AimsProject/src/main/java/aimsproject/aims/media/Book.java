@@ -38,4 +38,8 @@ import java.util.List;
         }
         
     }
+    @Override
+    public String toString() {
+        return "Book [" + title + "] - [" + category + "] : [" + cost + "$]";
+    }
 }

@@ -11,8 +11,8 @@ package aimsproject.aims.media;
 
 public class Media {
     private int id;
-    private String title;
-    private String category;
+    public String title;
+    public String category;
     public float cost;
     //private float cost;
 
